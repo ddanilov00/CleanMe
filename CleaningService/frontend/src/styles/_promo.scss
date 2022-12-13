@@ -1,0 +1,31 @@
+@use './variables' as *;
+@use './body' as *;
+
+.sticky-promo{
+    position: sticky;
+    transition: .5s;
+    top: 80px;
+    background-color: $raisinBlack;
+    color: $linen;
+    padding: 3px;
+    z-index: 98;
+    text-align: center;
+  
+    a{
+      padding-left: 15px;
+      color: white;
+      transition: .2s;
+      
+      &:hover{
+        transition: .2s;
+        text-decoration: none;
+      }
+    }
+  }
+
+@media screen and (max-width:600px){
+  .sticky-promo {
+    position: initial;
+    display: none;
+  }
+}

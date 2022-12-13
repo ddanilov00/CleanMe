@@ -1,0 +1,83 @@
+@use './variables' as *;
+@use './body' as *;
+
+.reasons{
+    position: relative;
+    @include flex-center;
+    width: 100%;
+  }
+  
+  .reason{
+    @include flex-center;
+    flex-direction: column;
+    margin: -75px 25px 0 25px;
+  }
+  
+  .reason-text{
+    text-align: center;
+    color: $mediumChampagne;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .image-container{
+    @include flex-center;
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    background-color: $linen;
+    border: 3px solid $mediumChampagne;
+    margin: 0;
+  }
+  
+  .reason-image{
+  }
+  
+  .reason-blue-border{
+    border-color: $blueYonder;
+  }
+  
+  .reason-blue-text{
+    color: $blueYonder;
+  }
+  
+  .reason-red-border{
+    border-color: $lightCora;
+  }
+  
+  .reason-red-text{
+    color: $lightCora;
+  }
+  
+  .reason-green-border{
+    border-color: $slimyGreen;
+  }
+  
+  .reason-green-text{
+    color: $slimyGreen;
+  }
+
+  @media screen and (max-width: 768px){
+    .reasons{
+      margin-top: 80px;
+      width: 100%;
+      flex-wrap: wrap;
+      
+      .reason{
+        width: 20%;
+        margin-top: 0;
+       margin-bottom: 0;
+      }
+
+      .image-container{
+        height: 100px;
+        width: 100px;
+      }
+
+      .reason-image{
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+      }
+    }
+  }

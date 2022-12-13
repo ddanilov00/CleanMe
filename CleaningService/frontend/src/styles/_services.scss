@@ -1,0 +1,138 @@
+@use './variables' as *;
+@use './body' as *;
+
+.services{
+    margin-top: 80px;
+    @include flex-center;
+    align-items: flex-start;
+    height: fit-content;
+    margin-bottom: 50px;
+    padding-top: 80px;
+    border-top: 2px solid $blueYonderAlpha;
+  
+    .title-and-services{
+      width: 50%;
+      padding-left: 50px;
+    }
+  
+    .services-title{
+      font-size: 32px;
+      font-weight: 400;
+      // text-align: center;
+        font-weight: 400;
+        position: relative;
+        width: fit-content;
+        margin: auto;
+        padding: 25px 0px 15px 0;
+        margin-bottom: 55px;
+
+    
+        &::before{
+          content: '';
+          background-color: $blueYonderAlpha;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          width: 100%;
+          height: 3px;
+        }
+    
+        &::after{
+          content: '';
+          background-color: $lightCora;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 3px;
+          width: 15%;
+        }
+    }
+  
+    .services-list-container{
+      padding: 0;
+    }
+  
+    .services-list{
+      width: 300px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      list-style: none;
+      font-size: 18px;
+      margin: 5px;
+      padding: 10px;
+      padding-left: 0;
+      border-bottom: 2px dashed $lightCora;
+    }
+  
+    .services-list-image{
+      margin-right: 5px;
+      display: none;
+    }
+  
+    .services-image-container{
+      border: 3px solid $lightCora;
+      position: relative;
+      border-radius: 50%;
+      height: 100%;
+      width: fit-content ;
+      margin-left: 25px;
+    }
+  
+    .services-image-transition-container{
+      @include flex-center;
+      // border-radius: 50%;
+      overflow: hidden;    
+      width: 100%;
+      height: 100%;
+    }
+  
+    .services-main-image{
+      padding: 15px;
+      // border: $border;
+      object-fit: cover;
+      height: 450px;
+      border-radius:50%;
+      width: 450px;
+      // border-radius: 50%;
+    }
+  }
+
+  @media screen and (max-width: 769px){
+    .services{
+      flex-direction: column;
+      align-items: center;
+
+    .services-list{
+      margin-left: auto;
+      margin-right: auto;
+      width: fit-content;
+    }
+
+    .title-and-services{
+      text-align: center;
+      padding-left: 0;
+    }
+
+    .services-image-container{
+      margin-top: 70px;
+    }
+
+    .services-main-image{
+      height: 250px;
+      width: 250px;
+    }
+
+    .services-title{
+      &::after{
+        content: '';
+        background-color: $lightCora;
+        position: absolute;
+        bottom: 0;
+        left: 42.5%;
+        height: 3px;
+        width: 15%;
+      }
+    }
+  }
+  }

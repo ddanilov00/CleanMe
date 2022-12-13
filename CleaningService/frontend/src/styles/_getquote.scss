@@ -1,0 +1,70 @@
+@use './variables' as *;
+
+.get-quote-container{
+    text-align: center;
+    $getQuoteSpacing: 1.8px;
+  
+    .get-quote-paragraph{
+      font-size: 18px;
+    }
+  
+    .get-quote-title{
+      font-weight: 400;
+      font-size: 32px;
+      letter-spacing: $getQuoteSpacing;
+      position: relative;
+      width: fit-content;
+      margin: auto;
+      padding-bottom: 15px;
+    // move this to own class
+      &::before{
+        content: '';
+        background-color: $blueYonderAlpha;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 3px;
+      }
+  
+      &::after{
+        content: '';
+        background-color: $lightCora;
+        position: absolute;
+        bottom: 0;
+        right: 42.5%;
+        height: 3px;
+        width: 15%;
+      }
+    }
+  
+    button{
+      color: $linen;
+      background-color: $lightCora !important;
+      font-size: 22px;
+      letter-spacing: $getQuoteSpacing;
+      padding: 30px 50px;
+      border: 2px solid $blueYonderAlpha;
+      border-radius: 5px;
+      position: relative;
+      top: 123px;
+      background: $linen;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .get-quote-container{
+      
+      .get-quote-title{
+        padding: 25px;
+      }
+
+      .get-quote-paragraph{
+        padding: 25px;
+      }
+
+      .get-quote-button{
+        width: 80%;
+      }
+    }
+  }

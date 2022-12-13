@@ -1,0 +1,45 @@
+@use './variables' as *;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $raisinBlack;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .max-width{
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  .link-decoration{
+    color: $raisinBlack;
+    text-decoration: none;
+  }
+  
+  @mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .upper-case{
+    text-transform: uppercase;
+  }
+  
+  .app{
+    min-height: 100vh;
+    height: fit-content;
+    background-color: $linen;
+  }
+  

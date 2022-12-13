@@ -1,0 +1,134 @@
+@use './variables' as *;
+@use './body' as *;
+
+.quote-form-container{
+    @include flex-center;
+    height: 320px;
+    
+    // background-image: url(https://dtweclean.wpengine.com/wp-content/uploads/2016/01/custom-package-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    .inner-quote-container{
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .quote-form-image-section{
+      width: 50%;
+      height: 320px;
+      @include flex-center;
+    }
+  
+    .quote-form-image-section-img{
+      margin-top: -70px;
+      height: 320px;
+      border-radius: 15px;
+      box-shadow: -5px 8px 4px 0 $darkLinen;
+    }
+  
+    .quote-form-success{
+      width: 100%;
+      // height: 100%;
+      margin-left: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      transition: .2s;
+
+      p:last-child{
+        margin-bottom: 156px;
+      }
+    }
+
+    .hidden{
+      opacity: 0;
+      height: 0;
+      width: 0;
+      display: none;
+    }
+
+    form{
+      @include flex-center;
+      flex-direction: column;
+      color: $raisinBlack;
+      padding: 15px;
+  
+      input{
+        border-radius: 5px;
+        width: 48%;
+        font-size: 18px;
+        padding: 15px 0;
+        margin: 10px 4px;
+        border: $blueYonderAlpha;
+        text-indent: 15px;
+        background-color: $darkLinen;
+        transition: .2s;
+        
+        &:focus{
+          transition: .2s;
+          outline-color: $lightCora;
+          box-shadow: 5px 5px 0px 0px $lightCora;
+        }
+      }
+  
+      .quote-form-email{
+        width: 98.4%;
+      }
+  
+      .quote-form-button{
+        background-color: $darkLinen;
+        width: 98.4%;
+        border: 1px solid $blueYonderAlpha;
+        border-radius: 5px;
+        font-size: 22px;
+        padding: 10px;
+        transition: .2s;
+        cursor: pointer;
+        margin-top: 10px;
+        font-weight: 200;
+  
+        &:hover{
+          background-color: $lightCora;
+          color: $linen;
+        }
+  
+        &:focus{
+          background-color: $lightCora;
+          color: $linen;
+          outline-color: $lightCora;
+        }
+      }
+  
+  
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .quote-form-container{
+      height: fit-content;
+
+      form{
+        input{
+          width: 98.4%;
+        }
+      }
+
+      .inner-quote-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .quote-form-image-section{
+        width: 80%;
+      }
+
+      .quote-form-image-section-img{
+        margin-top: -30px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
