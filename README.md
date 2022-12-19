@@ -18,7 +18,4 @@
 # [Ссылка на Figma](https://www.figma.com/file/qhbV3sMPaBLxEQLEt95dSs/Maket?t=RnzQ9VfFZdNwpYa6-0)
 
 ## Демонстрация работаспособности проекта 
-![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/95750854/208129722-0a68b5ed-3b44-4450-a21e-8720354543ef.gif)
-
-# Спасибо за внимание с:
-![78KI](https://user-images.githubusercontent.com/95750854/208129933-cd021710-afff-4660-8427-dc2580075629.gif)
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/100849597/208399401-06b2c655-d3ca-4716-9dfe-46de46bf5ae3.gif)
