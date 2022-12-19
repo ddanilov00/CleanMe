@@ -10,10 +10,6 @@
 Разрабатывая данный ресурс, мы пытаемся облегчить жизнь сразу обеим сторонам: лицо, которому требуются услуги клининга, и лицо, оказывающее данные услуги. 
 Регистрация возможна как клиенту, так и компании. 
 
-![карта сайта](https://user-images.githubusercontent.com/100849597/208394465-7476bbb9-525d-423a-b579-f14a2a686f65.PNG)
-![диаграммы](https://user-images.githubusercontent.com/100849597/208394471-344da6b3-cce5-4270-bca4-4acd711d9603.PNG)
-
-
 <img width="680" alt="Customer Journey Map (Community)" src="https://user-images.githubusercontent.com/100849597/208394465-7476bbb9-525d-423a-b579-f14a2a686f65.PNG">
 
 ## Анализ аудитории: 
