@@ -1,3 +1,5 @@
+![1](https://user-images.githubusercontent.com/100849597/208399951-a0e8f820-892e-4f22-855e-78db7e64a3fb.PNG)
+
 # CleanMe
 Проектная работы по курсу web-technology. Клининг-сервис "CleanMe". Выполнено Даниловым Дмитрием и Эркаевым Бехзодом
 
