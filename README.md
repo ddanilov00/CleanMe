@@ -15,7 +15,7 @@
 ## Анализ аудитории: 
 <img width="680" alt="анализ аудитории" src="https://user-images.githubusercontent.com/100849597/208394471-344da6b3-cce5-4270-bca4-4acd711d9603.PNG">
 
-# [Ссылка на Figma](https://www.figma.com/file/gAre0RYfuITaEFKOjiRSRs/%D0%92%D0%B5%D1%82-%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B0?node-id=0%3A1&t=i854xBUHnzMPJ9bv-1)
+# [Ссылка на Figma](https://www.figma.com/file/qhbV3sMPaBLxEQLEt95dSs/Maket?t=RnzQ9VfFZdNwpYa6-0)
 
 ## Демонстрация работаспособности проекта 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/95750854/208129722-0a68b5ed-3b44-4450-a21e-8720354543ef.gif)
